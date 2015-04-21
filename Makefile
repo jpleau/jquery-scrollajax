@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 PROGRAM=jquery-scrollajax
-VERSION=0.0.1
+VERSION=0.0.1-dev
 SRC=src/jquery.scrollajax.js
 DIST=dist/jquery.scrollajax.min.js
 
