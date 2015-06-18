@@ -6,7 +6,7 @@ SRC=src/jquery.scrollajax.js
 DIST=dist/jquery.scrollajax.min.js
 
 all:
-	echo -e "`head -n 5 $(SRC)`\n */" > $(DIST)
+	echo "`head -n 5 $(SRC)`\n */" > $(DIST)
 	uglifyjs $(SRC) >> $(DIST)
 	sed -i 's,%VERSION%,$(VERSION),g' $(DIST)
 
